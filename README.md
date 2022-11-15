@@ -1,4 +1,7 @@
 # Semantic-segmentation-through-Masked-RCNN
+Note:This works for videos as well, a test video is added for testing. This works equally well with webcams too.
+For webcam usage just replace the "test.mp4" in Videocapture with 0.
+
 In this project Semantic Segmentation is conducted using a Masked RCNN model and through trained COCO weights.
 
 The test image is given as follows:
