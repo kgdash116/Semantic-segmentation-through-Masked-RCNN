@@ -37,7 +37,11 @@ poetry install
 Python-OpenCV-2022-2-16
 ```
 - Press the play button.
-- Simultaneously run your Python script as you normally would. Navigate to the aivr project directory, that has the 'Publisher.py' file and run your script using Python:
+- Simultaneously run your Python script as you normally would by navigating to the aivr project directory, that has the
+```
+Publisher.py
+```
+file, and run your script using Python:
 ```
 poetry run python Publisher.py
 ```
