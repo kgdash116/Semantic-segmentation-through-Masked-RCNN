@@ -20,11 +20,7 @@ and leverages Machine Learning libraries such as Open-CV, ZeroMQ and numpy.
 ```
 pip install poetry
 ```
-- Open a terminal on the target machine, navigate to your project directory, i.e the aivr root folder which contains the
-```
-pyproject.toml
-```
-file, and run the following command to install the project dependencies:
+- Open a terminal on the target machine, navigate to your project directory, i.e the **aivr** root folder which contains the **pyproject.toml** file, and run the following command to install the project dependencies:
 ```
 poetry install
 ```
