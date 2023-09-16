@@ -22,9 +22,9 @@ pip install poetry
 ```
 - Open a terminal on the target machine, navigate to your project directory, i.e the aivr root folder which contains the
 ```
-pyproject.toml file
+pyproject.toml
 ```
-and run the following command to install the project dependencies:
+file, and run the following command to install the project dependencies:
 ```
 poetry install
 ```
