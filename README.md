@@ -1,18 +1,38 @@
-# Semantic-segmentation-through-Masked-RCNN
-Note:This works for videos as well, a test video is added for testing. This works equally well with webcams too.
-For webcam usage just replace the "test.mp4" in Videocapture with 0 in videostream.py file.
+# AIVR package
+A Python package that integrates with the Unity environment. This package,
+allows the user to communicate with the Unity environment, it has many functions,
+and leverages Machine Learning libraries such as Open-CV, ZeroMQ and numpy.
 
-In this project Semantic Segmentation is conducted using a Masked RCNN model and through trained COCO weights.
+## Table of Contents
 
-The test image is given as follows:
-![image](https://user-images.githubusercontent.com/101527504/201783154-bb3af4ae-d660-4d34-8ed9-2c37e4f574ea.png)
-
-A horizontal concatenated view is presented on which the left side depicts the detected objects with bounding boxes drawn over them, and the image on the right
-is the masks that segment the object.
-![image](https://user-images.githubusercontent.com/101527504/201783481-2d97e8f8-0602-4949-a991-cb5e4e4d97e3.png)
+- [Installation](#installation)
+- [Usage](#usage)
 
 
-The output of the model is such that it displays bounding boxes over the detected objects as well as a mask segmenting the detected object from the background.
-The output is given as follows, it is represented as an overlay of the masks over the original image:
+## Installation
 
-![image](https://user-images.githubusercontent.com/101527504/201783453-9468b5a3-a56c-4a8e-ba10-7afeb9ddc7e6.png)
+- Make sure that Python is installed on the target machine, this package
+ supports python = "^3.9".
+- If Poetry is not already installed on the target machine, you can install it    using pip. Run the following command:
+  ```
+  pip install poetry
+  ```
+- Open a terminal on the target machine, navigate to your project directory, which contains the pyproject.toml file, and run the following command to install the project dependencies:
+  ```
+  poetry install
+  ```
+- Poetry will read the pyproject.toml file and set up a virtual environment for your project, installing all the specified dependencies.
+
+## Usage
+
+- Assuming, Unity is installed, open the Unity environment and open the project named:
+```
+Python-OpenCV-2022-2-16
+```
+- Press the play button.
+- Simultaneously run your Python script as you normally would. Navigate to the aivr project directory, that has the 'Publisher.py' file and run your script using Python:
+```
+poetry run python Publisher.py
+```
+- Poetry takes care of creating a virtual environment for your project, ensuring that dependencies are isolated and well-managed.
+- The python script will guide you through the next processes, ad will provide options for operations that are available.
